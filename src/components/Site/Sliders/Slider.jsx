@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 import './style.css';
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 
 export default function App() {
     return (
@@ -25,8 +25,8 @@ export default function App() {
                 pagination={{
                     clickable: true,
                 }}
-                navigation={true}
-                modules={[Autoplay, Pagination, Navigation]}
+                
+                modules={[Autoplay, Pagination]}
                 className="mySwiper"
             >
                 <div className='slider1'>

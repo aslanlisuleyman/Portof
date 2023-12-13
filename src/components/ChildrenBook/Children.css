@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-top: 50px;
 }
 .cimg1{
     width:700px ;
@@ -30,4 +31,18 @@
 .img_Chi:hover{
     opacity: 0.7;
     transition: 0.8s;
+}
+.cards2{
+    flex-wrap: wrap;
+    display: flex;
+    width: 70%;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15%;
+}
+h3::after{
+    border: 1px solid;
+    border-color: #62ab00;
 }

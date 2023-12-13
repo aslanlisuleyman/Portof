@@ -1,12 +1,7 @@
 import React from 'react'
 import './HomeHeader.css'
 
-document.addEventListener("DOMContentLoaded", function() {
-  setTimeout(function() {
-      var header = document.querySelector('.home__header');
-      header.classList.add('fixed');
-  }, 2000); // 2000 milliseconds (2 seconds)
-});
+
 
 
 const HomeHeader = () => {

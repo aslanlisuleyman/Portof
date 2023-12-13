@@ -8,3 +8,12 @@
 .artb{
     background-color: #eccd00;
 }
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 74%;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}

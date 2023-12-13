@@ -9,9 +9,6 @@ const SiteRoot = () => {
         <Header/>
         <Outlet/>
         <Footer/>
-
-
-
     </React.Fragment>
   )
 }

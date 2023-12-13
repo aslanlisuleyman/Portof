@@ -55,8 +55,6 @@ const Cards2 = () => {
                     }
 
                 </Swiper>
-
-
             </div>
         </>
 

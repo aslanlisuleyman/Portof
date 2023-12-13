@@ -7,6 +7,8 @@ import Cards from '../../../components/Site/Cards/Cards'
 import Cards2 from '../../../components/Site/Cards2/Cards2'
 import ChildrenBook from '../../../components/ChildrenBook/ChildrenBook'
 import ArtsBook from '../../../components/ArtsBook/ArtsBook'
+import Card4 from '../../../components/Site/Card4/Card4'
+import Section from '../../../components/Site/Section/Section'
 
 const Home = () => {
   return (
@@ -16,8 +18,10 @@ const Home = () => {
     <Static/>
     <Cards/>
     <Cards2/>
+    <Section/>
     <ChildrenBook/>
     <ArtsBook/>
+    <Card4/>
     </div>
     
   )
