@@ -5,6 +5,8 @@ import Slider from '../../../components/Site/Sliders/Slider'
 import Static from '../../../components/Site/Static/Static'
 import Cards from '../../../components/Site/Cards/Cards'
 import Cards2 from '../../../components/Site/Cards2/Cards2'
+import ChildrenBook from '../../../components/ChildrenBook/ChildrenBook'
+import ArtsBook from '../../../components/ArtsBook/ArtsBook'
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
     <Static/>
     <Cards/>
     <Cards2/>
+    <ChildrenBook/>
+    <ArtsBook/>
     </div>
     
   )

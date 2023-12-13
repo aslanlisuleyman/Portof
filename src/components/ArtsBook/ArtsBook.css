@@ -1,0 +1,10 @@
+.arts:hover{
+    opacity: 0.7;
+    transition: 0.8s;
+}
+.artb:hover{
+ background-color: white;
+}
+.artb{
+    background-color: #eccd00;
+}

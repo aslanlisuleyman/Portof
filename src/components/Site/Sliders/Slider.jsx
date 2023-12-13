@@ -31,28 +31,28 @@ export default function App() {
             >
                 <div className='slider1'>
 
-                    <SwiperSlide  className='slider2'>
-                        <img  src="https://htmldemo.net/pustok/pustok/image/bg-images/home-slider-2-ai.png" alt="" />
-                        <div className='text2' >
+                    <SwiperSlide style={{backgroundColor:'rgb(237, 235, 235)'}} >
+                        <img  style={{marginLeft:'40%',width:'900px',height:'400px'}} src="https://htmldemo.net/pustok/pustok/image/bg-images/home-slider-2-ai.png" alt="" />
+                        <div className='text' >
                           <h2>H.G. Wells <br />
                           De Vengeance</h2>
-                          <p> <i>Cover Up Front Of Books And Leave <br /> Summary</i></p>
-                          <button >7.99 $-Order Now</button>
+                          <p > <i>Cover Up Front Of Books And Leave <br /> Summary</i></p>
+                          <button style={{marginRight:'11%'}} >7.99 $-Order Now</button>
                         </div>
 
                     </SwiperSlide>
 
                 </div>
-                <div className='slider1' >
+                <div  >
 
-                    <SwiperSlide  className='slider2'>
+                    <SwiperSlide  className='slider2' style={{backgroundColor:"rgb(234, 241, 248)"}}>
                     <div className='text2'>
                     <h2>J.D. Kurtness <br />
                     De Vengeance</h2>
                           <p> <i>Cover Up Front Of Books and Leave Summary</i></p>
                           <button >7.99 $-Order Now</button>
                     </div>
-                        <img  src="https://htmldemo.net/pustok/pustok/image/bg-images/home-slider-1-ai.png" alt="" />
+                        <img style={{paddingLeft:'10%',height:'350px'}} src="https://htmldemo.net/pustok/pustok/image/bg-images/home-slider-1-ai.png" alt="" />
                     
                     
                     
