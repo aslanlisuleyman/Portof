@@ -2,12 +2,12 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 import axios from 'axios'
 export const  getData3=createAsyncThunk('getData3',async()=>{
-    const response=await axios.get('http://localhost:3000/newBooks')
+    const response=await axios.get('http://localhost:3000/books')
     return response.data
 })
 
 const dataSlice3=createSlice({
-    name:'data2',
+    name:'data',
     initialState:{
         data:[],
         loading:false,

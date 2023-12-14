@@ -3,7 +3,8 @@ import './Card.css'
 import { useDispatch } from 'react-redux'
 import { addBasket } from '../../../redux/slices/basketSlice'
 import { addWishlist } from '../../../redux/slices/wishlistSlice'
-import toast,{ Toaster } from "react-hot-toast";
+
+
 
 const Card = ({ item }) => {
   const dispatch = useDispatch()
@@ -21,7 +22,7 @@ const Card = ({ item }) => {
           dispatch(addWishlist(item))
         }}></i></p>
         <p><i class="fa-solid fa-arrow-right-arrow-left"></i></p>
-        <p><i class="fa-solid fa-eye"></i></p>
+        <p >  <i class="fa-solid fa-eye"></i> </p>
          
       </div>
 

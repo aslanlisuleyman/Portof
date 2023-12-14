@@ -7,7 +7,7 @@ export const  getData2=createAsyncThunk('getData2',async()=>{
 })
 
 const dataSlice1=createSlice({
-    name:'data',
+    name:'data2',
     initialState:{
         data:[],
         loading:false,

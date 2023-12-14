@@ -3,17 +3,13 @@ import { useSelector } from 'react-redux'
 import Card from '../Card/Card'
 import './Cards.css'
 
-
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 
 import './styles.css';
 
-// import required modules
 import { Pagination } from 'swiper/modules';
 import { Toaster } from 'react-hot-toast';
 

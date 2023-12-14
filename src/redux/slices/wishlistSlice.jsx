@@ -26,12 +26,20 @@ const wishlistSlice = createSlice({
             
          
         },
-        deleteWishlist: (state, action) => {
+        
+        deleteWishlist: (state) => {
+            state.items = [];
+            localStorage.removeItem('wishlistItems');
+          },
+
+          deleteWishlists: (state, action) => {
             const target = state.items.find(item => item.id === action.payload.id)
             const index = state.items.indexOf(target)
             state.items.splice(index, 1)
+            localStorage.setItem("wishlistItems",JSON.stringify([...state.items]))
         }
+        
     }
 })
-export const {addWishlist}=wishlistSlice.actions
+export const {addWishlist,deleteWishlist,deleteWishlists}=wishlistSlice.actions
 export default wishlistSlice.reducer
