@@ -9,6 +9,7 @@ import ChildrenBook from '../../../components/ChildrenBook/ChildrenBook'
 import ArtsBook from '../../../components/ArtsBook/ArtsBook'
 import Card4 from '../../../components/Site/Card4/Card4'
 import Section from '../../../components/Site/Section/Section'
+import Carousel from '../../../components/Site/Carousell/Carousel'
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
     <ChildrenBook/>
     <ArtsBook/>
     <Card4/>
+    <Carousel/>
     </div>
     
   )
