@@ -7,11 +7,11 @@ const Card3 = ({item}) => {
       <p>{item.name.slice(0,10)}</p>
       <img src={item.image} alt="" />
       <div className="overlay" >
-  <p> <i class="fa-solid fa-basket-shopping"></i></p>
-  
-  <p> <i class="fa-solid fa-heart" style={{color: "#e00b0b;"}}></i></p>
-  <p><i class="fa-solid fa-arrow-right-arrow-left"></i></p>
-  <p><i class="fa-solid fa-eye"></i></p>
+    <p> <i class="fa-solid fa-basket-shopping"></i></p>
+    
+    <p> <i class="fa-solid fa-heart" style={{color: "#e00b0b"}}></i></p>
+    <p><i class="fa-solid fa-arrow-right-arrow-left"></i></p>
+    <p><i class="fa-solid fa-eye"></i></p>
   
 </div>
      

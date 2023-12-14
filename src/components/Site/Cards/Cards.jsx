@@ -15,6 +15,7 @@ import './styles.css';
 
 // import required modules
 import { Pagination } from 'swiper/modules';
+import { Toaster } from 'react-hot-toast';
 
 const Cards = () => {
   const {data}=useSelector(state=>state.api)
@@ -54,7 +55,7 @@ const Cards = () => {
          }
          
       </Swiper>
-
+      <Toaster/>
        
     </div>
   )
